@@ -1,10 +1,14 @@
 {
   "name": "cl-tinypng",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "license": "MIT",
   "bin": {
     "tiny": "./index.js",
     "tiny-save": "./save.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jiangjiyun/tinypng.git"
   },
   "author": {
     "name": "jiangjy",
