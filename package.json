@@ -3,8 +3,7 @@
   "version": "1.0.6",
   "license": "MIT",
   "bin": {
-    "tiny": "./index.js",
-    "tiny-save": "./save.js"
+    "cl-tinypng": "./index.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +15,11 @@
   },
   "dependencies": {
     "chalk": "^3.0.0",
+    "node-fetch": "^2.6.0",
+    "optimist": "^0.6.1",
+    "p-limit": "^2.2.1",
     "progress": "^2.0.3",
+    "qrcode-terminal": "^0.12.0",
     "tinify": "^1.6.0-beta.2"
   }
 }
